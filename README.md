@@ -2,7 +2,7 @@
 
 ## OCR + LLM Post-Processing for Historical Newspapers
 
-A pipeline for OCR text recognition with LLM-based post-processing to improve accuracy on historical newspaper documents. This project combines PaddleOCR for initial text extraction with Google Gemini API for intelligent error correction.
+A pipeline for OCR text recognition with LLM-based post-processing to improve accuracy on historical Indian-English newspapers. This project combines PaddleOCR for initial text extraction with Google Gemini for intelligent error correction.
 
 ## Overview
 
