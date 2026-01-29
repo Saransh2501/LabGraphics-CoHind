@@ -78,7 +78,7 @@ MODEL_DIR = Path(r"models/mobile_3333_inference")  # Recommended model
 
 3. **Run the evaluation**
 ```bash
-python evaluation_post.py
+python main.py
 ```
 
 ### Output Files
