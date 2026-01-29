@@ -103,10 +103,10 @@ MODEL_DIR = Path(r"models/your_model_name")
 
 ## Training Data Preparation
 
-Use `combine_datasets.py` to create augmented training datasets:
+Use `dataset.py` to create augmented training datasets:
 
 ```bash
-python combine_datasets.py
+python dataset.py
 ```
 
 This script:
