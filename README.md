@@ -68,7 +68,7 @@ Place fine-tuned PaddleOCR models in the `models/` directory.
    - Place newspaper images in `images/` directory (`.png`, `.jpg`, or `.jpeg`)
    - Place corresponding ground truth files in `ground_truth/` with the same filename but `.txt` extension
 
-2. **Configure paths** (in `evaluation_post.py`)
+2. **Configure paths** (in `main.py`)
 ```python
 BASE_DIR = Path(r"")  # Project root
 IMAGES_DIR = BASE_DIR / "images"
@@ -96,7 +96,7 @@ After running, you'll find:
 
 ### Using Different Models
 
-To use a different model, change the `MODEL_DIR` path in `evaluation_post.py`:
+To use a different model, change the `MODEL_DIR` path in `main.py`:
 ```python
 MODEL_DIR = Path(r"models/your_model_name")
 ```
